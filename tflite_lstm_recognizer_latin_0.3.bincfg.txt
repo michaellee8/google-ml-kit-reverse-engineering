@@ -1,0 +1,52 @@
+2: "DATADIR/tflite_lstm_recognizer_latin_0.3.class_lst"
+3: 24
+10: 12
+12 {
+  1: ""
+  6: 0
+  7: 1
+  8: 12
+  9: 0
+  10: 0
+  11: 100
+  12: 4
+  13: 0
+  14: 4
+  16: 0
+  18: "tflite_lstm_recognizer_latin_0.3.conv_model"
+  19: "tflite_lstm_recognizer_latin_0.3.lstm_model"
+  20: 1000
+  22: 1
+  24: 0
+  25: 0x3c23d70a
+  26: 10
+  30 {
+    1: "lstm0/BasicLSTMCellZeroState/zeros"
+    2: "lstm0/basic_lstm_cell/Add_1"
+    3: 96
+  }
+  30 {
+    1: "lstm0/BasicLSTMCellZeroState/zeros_1"
+    2: "lstm0/basic_lstm_cell/Mul_2"
+    3: 96
+    4: 128
+  }
+  30 {
+    1: "lstm1/BasicLSTMCellZeroState/zeros"
+    2: "lstm1/basic_lstm_cell/Add_1"
+    3: 96
+  }
+  30 {
+    1: "lstm1/BasicLSTMCellZeroState/zeros_1"
+    2: "lstm1/basic_lstm_cell/Mul_2"
+    3: 96
+    4: 128
+  }
+  37: 1
+}
+21 {
+  1: "LanguageIdMutator"
+  8: 0
+}
+24: "en_af_ca_cs_da_de_es_et_fi_fr_hr_hu_id_is_it_lt_lv_ms_nl_no_pl_pt_ro_sk_sl_sv_tl_tr_vi"
+28: 0x4000000000000000
